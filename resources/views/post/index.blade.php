@@ -1,7 +1,7 @@
 <?php
 /** @var $posts \Illuminate\Pagination\LengthAwarePaginator */
 ?>
-<x-app-layout :meta-description="'The best technology blog in Kenya'">
+<x-app-layout :meta-title="'Technology blog - Posts by category '.$category->title" :meta-description="'Description by category title'">
 
 <section class="w-full md:w-2/3 flex flex-col items-center px-3">
 
